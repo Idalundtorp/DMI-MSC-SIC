@@ -6,8 +6,8 @@
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](#)
 
 > **Authors:** Olsen, I. et al., Danish Meteorological Institute (DMI)  
-> **Publication:** *A new global multi-source sea ice concentration composite*  
-> **DOI:** [https://doi.org/10.5281/zenodo.17100178](https://doi.org/10.5281/zenodo.17100178)
+> **Associated Publication (Preprint):** *A new global multi-source sea ice concentration composite*  
+> **Dataset DOI:** [https://doi.org/10.5281/zenodo.17100178](https://doi.org/10.5281/zenodo.17100178)
 
 ---
 
@@ -31,9 +31,21 @@ To run the code:
 Example: 
 ./main.sh 2025-07-01 2025-07-31
 
+This code runs:
+
+1. Reprojection of NIC icecharts from shapefiles into 12.5 EASE3 netcdf files
+2. Regridding of all data (NIC icecharts, OSI458_TU (temporal update of OSI458 PMW CDR), FMI_SMHI icecharts, BALTIC_SST) from their original grid to a regular 0.05 degree lat/lon grid. It also splits ESA CCI SST data into NH and SH
+3. Running processing of DMI-MSC-SIC (main script)
+4. Combines NH and SH DMI-MSC-SIC files to create global files.
+
+Steps 2 and 3 runs separately for NH and SH
+
+
 📥 Input Data
 
 Each of the input data sources can be downloaded using their respective download scripts.
 
 Example: ./download_OSI450a.sh
+
+
 
