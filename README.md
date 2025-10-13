@@ -12,9 +12,9 @@
 
 ## Overview
 
-The **DMI Multisource Sea Ice Concentration Composite (DMI-MSC-SIC)** is a *global daily sea ice concentration dataset* combining satellite passive microwave data, sea ice charts, and SST products.  
+The **DMI Multisource Sea Ice Concentration Composite (DMI-MSC-SIC)** is a *global daily sea ice concentration dataset spanning 1982 through 2024*. It combines several input data sources including passive microwave data and sea ice charts.  
 
-This repository contains the full workflow for producing the DMI-MSC-SIC ([DOI link](https://doi.org/10.5281/zenodo.17100178)) along with the figures presented in the associated paper **A new global multi-source sea ice concentration composite**.
+This repository contains the full workflow for producing the DMI-MSC-SIC ([DOI link](https://doi.org/10.5281/zenodo.17100178)) along with the figures presented in the associated paper **A new global multi-source sea ice concentration composite**. These are available from the plotting_scripts folder.
 
 To produce the DMI-MSC-SIC, use the `main.sh` script. This downloads NIC data, regrids all data, and runs the primary code, which selects, combines, filters, and extrapolates relevant data.
 
