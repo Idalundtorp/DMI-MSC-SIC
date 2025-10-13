@@ -1,4 +1,4 @@
-Plotting Scripts
+**Plotting Scripts**
 
 This repository contains relevant plotting scripts used to generate figures in the paper: "A new global multi-source sea ice concentration composite". Each script produces specific visualizations for sea ice extent (SIE), sea ice area (SIA), or comparisons with other datasets.
 
