@@ -1,7 +1,6 @@
 # DMI Multisource Sea Ice Concentration Composite (DMI-MSC-SIC)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17100178.svg)](https://doi.org/10.5281/zenodo.17100178)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](#)
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](#)
 
