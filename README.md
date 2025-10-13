@@ -41,7 +41,7 @@ This code runs:
 Steps 2 and 3 runs separately for NH and SH
 
 
-Input Data
+**Input Data**
 
 Each of the input data sources can be downloaded using their respective download scripts.
 
